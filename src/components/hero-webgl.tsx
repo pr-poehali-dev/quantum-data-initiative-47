@@ -114,8 +114,8 @@ const Scene = () => {
 }
 
 export const Hero3DWebGL = () => {
-  const titleWords = "Synapse AI".split(" ")
-  const subtitle = "Нейроинтерфейсы нового поколения."
+  const titleWords = "MERAUN .CLO".split(" ")
+  const subtitle = "Одежда для тех, кто живёт своим путём."
   const [visibleWords, setVisibleWords] = useState(0)
   const [subtitleVisible, setSubtitleVisible] = useState(false)
   const [delays, setDelays] = useState<number[]>([])
@@ -155,6 +155,7 @@ export const Hero3DWebGL = () => {
                 style={{
                   animationDelay: `${index * 0.13 + (delays[index] || 0)}s`,
                   opacity: index < visibleWords ? undefined : 0,
+                  color: word === ".CLO" ? "#ef4444" : "white",
                 }}
               >
                 {word}
@@ -172,6 +173,20 @@ export const Hero3DWebGL = () => {
           >
             {subtitle}
           </div>
+        </div>
+        <div
+          className={subtitleVisible ? "fade-in-subtitle mt-8 pointer-events-auto" : "mt-8 pointer-events-auto"}
+          style={{
+            animationDelay: `${titleWords.length * 0.13 + 0.5 + subtitleDelay}s`,
+            opacity: subtitleVisible ? undefined : 0,
+          }}
+        >
+          <a
+            href="#catalog"
+            className="inline-block px-8 py-3 bg-red-500 hover:bg-red-600 text-white font-orbitron text-sm tracking-widest uppercase transition-colors duration-200 rounded-sm"
+          >
+            Смотреть каталог
+          </a>
         </div>
       </div>
 
