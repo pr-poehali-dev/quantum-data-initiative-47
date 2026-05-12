@@ -4,6 +4,7 @@ import { CatalogSection } from "@/components/catalog-section"
 import { AboutSection } from "@/components/about-section"
 import { DeliverySection } from "@/components/delivery-section"
 import { ReturnsSection } from "@/components/returns-section"
+import { GallerySection } from "@/components/gallery-section"
 import { TestimonialsSection } from "@/components/testimonials-section"
 import { FAQSection } from "@/components/faq-section"
 import { CTASection } from "@/components/cta-section"
@@ -45,6 +46,7 @@ export default function Index() {
         <AboutSection />
         <DeliverySection />
         <ReturnsSection />
+        <GallerySection />
         <TestimonialsSection />
         <section id="faq">
           <FAQSection />
