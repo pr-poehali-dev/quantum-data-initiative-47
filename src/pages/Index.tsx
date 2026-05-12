@@ -3,6 +3,7 @@ import { Hero3DWebGL as Hero3D } from "@/components/hero-webgl"
 import { CatalogSection } from "@/components/catalog-section"
 import { AboutSection } from "@/components/about-section"
 import { DeliverySection } from "@/components/delivery-section"
+import { ReturnsSection } from "@/components/returns-section"
 import { TestimonialsSection } from "@/components/testimonials-section"
 import { FAQSection } from "@/components/faq-section"
 import { CTASection } from "@/components/cta-section"
@@ -43,6 +44,7 @@ export default function Index() {
         <CatalogSection onAddToCart={handleAddToCart} />
         <AboutSection />
         <DeliverySection />
+        <ReturnsSection />
         <TestimonialsSection />
         <section id="faq">
           <FAQSection />
