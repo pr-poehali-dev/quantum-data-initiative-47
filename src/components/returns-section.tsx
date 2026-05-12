@@ -147,7 +147,7 @@ export function ReturnsSection() {
           </div>
           <div className="flex gap-3 flex-wrap">
             <a
-              href="https://t.me/meraunstore"
+              href="https://t.me/meraunCLO"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-2 px-5 py-2.5 bg-red-500 hover:bg-red-600 text-white font-orbitron text-xs tracking-widest uppercase transition-colors duration-200 rounded-lg"
@@ -156,7 +156,7 @@ export function ReturnsSection() {
               Telegram
             </a>
             <a
-              href="mailto:hello@meraun.ru"
+              href="mailto:semensaporev166@gmail.com"
               className="flex items-center gap-2 px-5 py-2.5 bg-transparent border border-white/10 hover:border-red-500/50 text-gray-300 hover:text-white font-orbitron text-xs tracking-widest uppercase transition-all duration-200 rounded-lg"
             >
               <Icon name="Mail" size={14} />
