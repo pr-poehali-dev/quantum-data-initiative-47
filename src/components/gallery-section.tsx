@@ -100,18 +100,7 @@ export function GallerySection() {
           ))}
         </div>
 
-        {/* Instagram CTA */}
-        <div className="mt-14 text-center">
-          <a
-            href="https://instagram.com/meraunCLO"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-flex items-center gap-3 px-8 py-3 border border-white/10 hover:border-red-500/50 text-gray-300 hover:text-white font-orbitron text-xs tracking-widest uppercase transition-all duration-200 rounded-lg"
-          >
-            <Icon name="Instagram" size={16} className="text-red-500" />
-            Больше в Instagram
-          </a>
-        </div>
+
       </div>
 
       {/* Lightbox */}
