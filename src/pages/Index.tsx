@@ -1,6 +1,7 @@
 import { useState } from "react"
 import { Hero3DWebGL as Hero3D } from "@/components/hero-webgl"
 import { CatalogSection } from "@/components/catalog-section"
+import { AboutSection } from "@/components/about-section"
 import { TestimonialsSection } from "@/components/testimonials-section"
 import { FAQSection } from "@/components/faq-section"
 import { CTASection } from "@/components/cta-section"
@@ -39,6 +40,7 @@ export default function Index() {
       <main>
         <Hero3D />
         <CatalogSection onAddToCart={handleAddToCart} />
+        <AboutSection />
         <TestimonialsSection />
         <section id="faq">
           <FAQSection />
